@@ -1,0 +1,67 @@
+body {
+    text-transform: uppercase;
+}
+
+h1 {
+     text-transform: capitalize; 
+     text-transform: lowercase; 
+     text-transform: uppercase; 
+     text-transform: none; 
+    text-transform: inherit;
+
+     text-decoration: underline double; 
+     text-decoration: line-through; 
+    text-decoration: underline;
+
+     text-align: center; 
+
+     border: 1px solid rgb(0, 17, 255); 
+     background-color: blue;
+     text-indent: 50px; 
+    padding-left: 20px;
+
+     text-shadow: 20px 20px 5px rgb(0, 0, 0); 
+     box-shadow: 20px 20px 5px rgb(0, 17, 255) 
+
+
+     box-shadow:blue;
+
+
+    box-shadow: blue;
+}
+
+ p { 
+     text-decoration:underline;double;
+     line-height: 100px; 
+     font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 5px;
+    word-spacing: 20px; 
+
+     text-align: justify; 
+     text-align: center; 
+     text-align: end; 
+     text-align: right; 
+ } 
+
+ p::first-letter {
+    font-size: 40px;
+    text-transform: uppercase;
+} 
+
+ p::first-line {
+    font-size: 40px;
+    text-transform: uppercase;
+} 
+
+a {
+    color: white
+}
+
+a:link {
+    background-color: brown;
+}
+
+a:visited {
+    background-color: blueviolet;
+}
